@@ -1,0 +1,119 @@
+* {
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: lightblue;
+    overflow: hidden;
+}
+.app {
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+header h1 {
+    margin: 50px 0px 30px 0px;
+    text-align: center;
+    font-size: 40px;
+}
+header p {
+    font-size: 20px;
+    margin-left: 700px;
+}
+.pads {
+    width: 100vw;
+    display: inline-flex;
+    overflow-x: hidden;
+}
+.pads > div {
+    height: 200px;
+    width: calc(100/7*1vw);
+}
+.pad1 {
+    background: #FF7F50;
+    margin-top: 30%;
+    margin-bottom: 0%;
+    flex: 20%;
+    padding: 5%;
+    
+} 
+.pad2 {
+    background:#FFFF00;
+    margin-top: 30%;
+    margin-bottom: 0%;
+    flex: 20%;
+    padding: 5%;
+
+}
+.pad3 {
+    background:#e74c3c;
+    margin-top: 30%;
+    margin-bottom: 0%;
+    flex: 20%;
+    padding: 5%;
+}
+.pad4 {
+    background:#686de0;
+    margin-top: 30%;
+    margin-bottom: 0%;
+    flex: 20%;
+    padding: 5%;
+}
+.pad5 {
+    background: #84142d;
+    margin-top: 30%;
+    margin-bottom: 0%;
+    flex: 20%;
+    padding: 5%;
+}
+.pad6 {
+    background: #f2a365;
+    margin-top: 30%;
+    margin-bottom: 0%;
+    flex: 20%;
+    padding: 5%;
+}
+.pad7 {
+    background:#54123b;
+    margin-top: 30%;
+    margin-bottom: 0%;
+    flex: 20%;
+    padding: 5%;
+}
+.visual > div {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    bottom: 0%;
+    left: 20%;
+    bottom: 0%;
+}
+
+@keyframes jump {
+    0% {
+        bottom: 0%;
+        left: 20%;
+
+    }
+    50% {
+        bottom: 50%;
+        left: 50%;
+
+    }
+    100% {
+        bottom: 0%;
+        left: 80%;
+    }
+}
+.visual > div {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    bottom: 0%;
+
+}
